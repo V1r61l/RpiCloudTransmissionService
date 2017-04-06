@@ -1,0 +1,25 @@
+{
+  "name": "cloud_transmission_service",
+  "version": "1.0.0",
+  "description": "NodeJs service which retrieves data from SQLite database, configures the AWS DynamoDB service, parses and formats the data(JSON) and sends data to the DynamoDB cloud service.",
+  "main": "app.js",
+  "dependencies":{
+    "sqlite3":"*",
+    "aws-sdk":"*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "service",
+    "AWS",
+    "DynamoDB",
+    "JSON",
+    "REST",
+    "SQLite3",
+    "IoT"
+  ],
+  "author": "Virgil Andreies",
+  "license": "ISC"
+}
